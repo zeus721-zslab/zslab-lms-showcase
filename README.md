@@ -68,7 +68,7 @@
 
 - Raycast 기반 dark-first 디자인
 - Tailwind v4 @theme inline 토큰
-- shadcn/ui 표준화 (13개 컴포넌트)
+- shadcn/ui 표준화 (14개 컴포넌트)
 - Framer Motion (MotionConfig · shared variants)
 - Lighthouse 기준점 확보 · 자동 회귀 250+ 케이스
 
@@ -76,7 +76,7 @@
 
 모놀리식 백엔드(Laravel 12 + FrankenPHP)와 SSR 프론트엔드(Next.js standalone 빌드)를 분리하고, Nginx Gateway에서 SSL 종단 처리 후 Caddy 내부 라우터를 통해 서비스로 분배합니다. Elasticsearch는 공유 컨테이너(zslab-infra)에서 관리하며 sync-search.sh로 동기화합니다. GitHub Actions CI/CD → ghcr.io → 운영 서버 자동 배포 파이프라인이 구성되어 있습니다.
 
-자세한 아키텍처 다이어그램과 기술 결정 근거는 `docs/` 하위 문서에서 순차적으로 추가 예정입니다.
+자세한 아키텍처 다이어그램과 기술 결정 근거는 `docs/` 하위 문서에서 확인할 수 있습니다.
 
 ## 📊 규모 지표
 
@@ -91,12 +91,12 @@
 
 | 문서 | 내용 |
 |---|---|
-| [docs/01-architecture.md](docs/01-architecture.md) | 시스템 아키텍처 · 기술 결정 (준비 중) |
-| [docs/02-tech-stack.md](docs/02-tech-stack.md) | 스택 선택 근거 (준비 중) |
-| [docs/03-credit-bank.md](docs/03-credit-bank.md) | 학점은행 평가인정 트랙 (준비 중) |
-| [docs/04-exam-redesign.md](docs/04-exam-redesign.md) | 시험 도메인 재설계 (준비 중) |
-| [docs/05-admin-ops.md](docs/05-admin-ops.md) | 운영자 도구 (준비 중) |
-| [docs/06-design-system.md](docs/06-design-system.md) | 디자인 시스템 (준비 중) |
+| [docs/01-architecture.md](docs/01-architecture.md) | 시스템 아키텍처 · 기술 결정 |
+| [docs/02-tech-stack.md](docs/02-tech-stack.md) | 스택 선택 근거 |
+| [docs/03-credit-bank.md](docs/03-credit-bank.md) | 학점은행 평가인정 트랙 |
+| [docs/04-exam-redesign.md](docs/04-exam-redesign.md) | 시험 도메인 재설계 |
+| [docs/05-admin-ops.md](docs/05-admin-ops.md) | 운영자 도구 |
+| [docs/06-design-system.md](docs/06-design-system.md) | 디자인 시스템 |
 
 ## 📸 스크린샷
 
